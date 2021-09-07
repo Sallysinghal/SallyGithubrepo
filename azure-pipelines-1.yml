@@ -27,7 +27,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker'
-    repository: 'sallydocker_repo'
+    repository: 'sallysinghal / sallydocker_repo'
     command: 'buildAndPush'
     Dockerfile: '**/AzureDockerfile'
 
